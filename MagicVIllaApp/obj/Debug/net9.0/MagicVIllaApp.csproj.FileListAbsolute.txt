@@ -95,3 +95,8 @@ C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\refint\MagicVIllaApp.dll
 C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\MagicVIllaApp.pdb
 C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\MagicVIllaApp.genruntimeconfig.cache
 C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\ref\MagicVIllaApp.dll
+C:\_Dev\MagicVIllaApp\MagicVIllaApp\bin\Debug\net9.0\AutoMapper.dll
+C:\_Dev\MagicVIllaApp\MagicVIllaApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\MagicVIllaApp.csproj.AssemblyReference.cache
+C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\MagicVIllaApp.sourcelink.json
+C:\_Dev\MagicVIllaApp\MagicVIllaApp\obj\Debug\net9.0\MagicVIl.161C3B92.Up2Date

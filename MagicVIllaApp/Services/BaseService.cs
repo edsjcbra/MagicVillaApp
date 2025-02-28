@@ -23,7 +23,7 @@ public class BaseService : IBaseService
         {
             var client = httpClient.CreateClient();
             HttpRequestMessage request = new HttpRequestMessage();
-            request.Headers.Add("Accept", "appication/json");
+            request.Headers.Add("Accept", "application/json");
             request.RequestUri = new Uri(apiRequest.Url);
             if (apiRequest.Data != null)
             {

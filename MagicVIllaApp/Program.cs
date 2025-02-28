@@ -1,10 +1,15 @@
 using MagicVIllaApp.Mapping;
+using MagicVIllaApp.Services;
+using MagicVIllaApp.Services.IServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//INTERFACES
+builder.Services.AddHttpClient<IVillaService, VillaService>();
+builder.Services.AddScoped<IVillaService, VillaService>();
 //AUTOMAPPER
 builder.Services.AddAutoMapper(typeof(MappingConfig));
 

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<VillaDto>
+
+@{
+    ViewData["Title"] = "Lista de Villas";
+}
+
+<h1>@ViewData["Title"]</h1>
+@if (Model != null && Model.Any())
+{
+    <table class="table table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Detalhes</th>
+            <th>Taxa</th>
+            <th>Área (Sqft)</th>
+            <th>Ocupação</th>
+            <th>Imagem</th>
+            <th>Comodidades</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var villa in Model)
+        {
+            <tr>
+                <td>@villa.Id</td>
+                <td>@villa.Name</td>
+                <td>@villa.Details</td>
+                <td>@villa.Rate</td>
+                <td>@villa.Sqft</td>
+                <td>@villa.Occupancy</td>
+                <td>
+                    <img src="@villa.ImageUrl" alt="Imagem da Villa" style="width:100px;height:auto;" />
+                </td>
+                <td>@villa.Amenity</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Nenhuma villa encontrada.</p>
+}
